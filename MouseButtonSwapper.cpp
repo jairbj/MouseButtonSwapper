@@ -6,14 +6,14 @@
 int main(int argc, char* argv[]) {
     if (argc == 2)
     {
-        if (strcmp(argv[1],"left"))
+        if (strcmp(argv[1],"left") == 0)
         {
-            //Set main mouse button to left
+            //Set mouse button function to normal
             SwapMouseButton(0);
         }
-        else if (strcmp(argv[1], "right"))
+        else if (strcmp(argv[1], "right") == 0)
         {
-            //Set main mouse button to right
+            //Set mouse button function to reverse
             SwapMouseButton(1);
         }
         else 
